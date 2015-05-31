@@ -1,0 +1,126 @@
+@font-face{
+    font-family: steelfish;
+    src: url(font/steelfish.ttf);
+}
+
+@-webkit-keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+@-moz-keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+@keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+
+body{
+    background: url('img/New_York_City_at_night_HDR_edit1.jpg');
+    -webkit-background-size: cover;
+    font-family: steelfish;
+    color: white;
+}
+
+
+#container {
+    width: 1024px;
+    height: 100%;
+    margin: auto;
+}
+
+#profile #img {
+    width:234px;
+    height:234px;
+    background: url(img/profile.png);
+    margin: auto;
+}
+
+#profile {
+    width: 400px;
+    margin: auto;
+}
+
+#profile #name {
+    font-size: 6em;
+    text-align: center;
+}
+
+#fb {
+    background: url(img/fb.png);
+    -webkit-transition: all 0.7s ease-in-out;
+}
+#fb:hover{
+    background: url(img/fb_s.png);
+    -webkit-transition: all 0.7s ease-in-out;
+}
+
+#twitter {
+    background: url(img/twitter.png);
+    -webkit-transition: all 0.7s ease-in-out;
+}
+#twitter:hover{
+    background: url(img/twitter_s.png);
+    -webkit-transition: all 0.7s ease-in-out;
+}
+
+#gplus {
+    background: url(img/gplus.png);
+    -webkit-transition: all 0.7s ease-in-out;
+}
+#gplus:hover{
+    background: url(img/gplus_s.png);
+    -webkit-transition: all 0.7s ease-in-out;
+}
+
+#in {
+    background: url(img/in.png);
+    -webkit-transition: all 0.7s ease-in-out;
+}
+#in:hover{
+    background: url(img/in_S.png);
+    -webkit-transition: all 0.7s ease-in-out;
+}
+
+#social {
+    height: 250px;
+    width: 1024px;
+    margin: 15px auto;
+}
+
+.button {
+    height: 222px;
+    width: 221px;
+    float:left;
+    margin: 10px 17px 0 17px;
+}
+
+#profile_container {
+    width: 1024px;
+    
+}
+
+
+.fade-in {
+    opacity:0;
+	-webkit-animation:fadeIn ease-in 1;
+	-moz-animation:fadeIn ease-in 1;
+	animation:fadeIn ease-in 1;
+
+	-webkit-animation-fill-mode:forwards;
+	-moz-animation-fill-mode:forwards;
+	animation-fill-mode:forwards;
+
+	-webkit-animation-duration:1s;
+	-moz-animation-duration:1s;
+	animation-duration:1s;
+}
+.fade-in.one {
+-webkit-animation-delay: 0.7s;
+-moz-animation-delay: 0.7s;
+animation-delay: 0.7s;
+}
+
+.fade-in.two {
+-webkit-animation-delay: 1.2s;
+-moz-animation-delay:1.2s;
+animation-delay: 1.2s;
+}
+
+.fade-in.three {
+-webkit-animation-delay: 1.6s;
+-moz-animation-delay: 1.6s;
+animation-delay: 1.6s;
+}
