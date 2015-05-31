@@ -70,7 +70,7 @@ body{
     -webkit-transition: all 0.7s ease-in-out;
 }
 #in:hover{
-    background: url(img/in_S.png);
+    background: url(img/in_s.png);
     -webkit-transition: all 0.7s ease-in-out;
 }
 
