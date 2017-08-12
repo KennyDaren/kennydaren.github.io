@@ -1,6 +1,6 @@
 @font-face{
     font-family: steelfish;
-    src: url(font/steelfish.ttf);
+    src: url(old/font/steelfish.ttf);
 }
 
 @-webkit-keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
@@ -8,7 +8,7 @@
 @keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
 
 body{
-    background: url('img/New_York_City_at_night_HDR_edit1.jpg');
+    background: url('old/img/New_York_City_at_night_HDR_edit1.jpg');
     -webkit-background-size: cover;
     font-family: steelfish;
     color: white;
@@ -24,7 +24,7 @@ body{
 #profile #img {
     width:234px;
     height:234px;
-    background: url(img/profile.png);
+    background: url(old/img/profile.png);
     margin: auto;
 }
 
@@ -39,38 +39,38 @@ body{
 }
 
 #fb {
-    background: url(img/fb.png);
+    background: url(old/img/fb.png);
     -webkit-transition: all 0.7s ease-in-out;
 }
 #fb:hover{
-    background: url(img/fb_s.png);
+    background: url(old/img/fb_s.png);
     -webkit-transition: all 0.7s ease-in-out;
 }
 
 #twitter {
-    background: url(img/twitter.png);
+    background: url(old/img/twitter.png);
     -webkit-transition: all 0.7s ease-in-out;
 }
 #twitter:hover{
-    background: url(img/twitter_s.png);
+    background: url(old/img/twitter_s.png);
     -webkit-transition: all 0.7s ease-in-out;
 }
 
 #gplus {
-    background: url(img/gplus.png);
+    background: url(old/img/gplus.png);
     -webkit-transition: all 0.7s ease-in-out;
 }
 #gplus:hover{
-    background: url(img/gplus_s.png);
+    background: url(old/img/gplus_s.png);
     -webkit-transition: all 0.7s ease-in-out;
 }
 
 #in {
-    background: url(img/in.png);
+    background: url(old/img/in.png);
     -webkit-transition: all 0.7s ease-in-out;
 }
 #in:hover{
-    background: url(img/in_s.png);
+    background: url(old/img/in_s.png);
     -webkit-transition: all 0.7s ease-in-out;
 }
 
