@@ -2144,10 +2144,11 @@
 		header.major:after {
 			background: #391a5f;
 			content: '';
-			display: inline-block;
+			display: block;
 			height: 0.2em;
 			max-width: 20em;
 			width: 75%;
+			margin: 1em auto;
 		}
 
 	footer.major {
@@ -4015,4 +4016,41 @@
 
 .muted{
 	opacity: 0.3;
+}
+
+.p-0 {
+	padding: 0 !important;
+}
+
+.pv-0 {
+	padding-top: 0 !important;
+	padding-bottom: 0 !important;
+}
+.pv-1 {
+	margin-top: 1em !important;
+	margin-bottom: 1em !important;
+}
+.mt-05 {
+	margin-top: -0.5em;
+}
+.mb-1 {
+	margin-bottom: 1em !important;
+}
+
+.pb-2{
+	padding-bottom: 2em !important;
+}
+
+
+@media screen and (max-width: 736px) {
+	.sm-mt-2{
+		margin-top: 2em !important;
+	}
+}
+
+a{
+	color: rgba(255, 255, 255, 0.75);
+}
+a:hover{
+	color: rgba(255, 255, 255, 0.5) !important;
 }
