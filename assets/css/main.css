@@ -4036,7 +4036,13 @@
 	margin-top: -0.5em;
 }
 
+.m-auto {
+	margin: auto !important;
+}
 
+.ml-3 {
+	margin-left: 3em !important;
+}
 .mb-1 {
 	margin-bottom: 1em !important;
 }
@@ -4044,7 +4050,6 @@
 .pb-2 {
 	padding-bottom: 2em !important;
 }
-
 
 @media screen and (max-width: 736px) {
 	.sm-mt-2 {
